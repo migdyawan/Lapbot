@@ -67,3 +67,6 @@ def buat_laporan(input_text):
     laporan += "Demikian kami laporkan   terimakasih selamat malam."
 
     return laporan
+
+
+bot.infinity_polling()
