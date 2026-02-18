@@ -1,3 +1,12 @@
+import telebot
+from telebot import types
+import os
+from datetime import datetime
+import re
+
+TOKEN = os.getenv("TOKEN")
+bot = telebot.TeleBot(TOKEN)
+
 def buat_laporan(input_text):
     lines = input_text.strip().split("\n")
     
